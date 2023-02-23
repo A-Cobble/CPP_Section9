@@ -33,7 +33,7 @@ int main() {
 		cout << "\n========== If statement 3 ==========" << endl;
 		cout << num << " is in range " << endl;
 		cout << "This means statements 1 and 2 must also display!!" << endl;
-
+		
 	}
 
 	if (num == min || num == max) {
@@ -44,4 +44,4 @@ int main() {
 
 	cout << endl;
 	return 0;
-	}
+}
