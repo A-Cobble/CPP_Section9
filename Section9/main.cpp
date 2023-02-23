@@ -29,6 +29,19 @@ int main() {
 		cout << num << " is " << diff << " less than " << max << endl;
 	}
 
+	if (num >= min && num <= max) {
+		cout << "\n========== If statement 3 ==========" << endl;
+		cout << num << " is in range " << endl;
+		cout << "This means statements 1 and 2 must also display!!" << endl;
+
+	}
+
+	if (num == min || num == max) {
+		cout << "\n========== If statement 4 ==========" << endl;
+		cout << num << " is right on the boundary" << endl;
+		cout << "This means all 4 statements display" << endl;
+	}
+
 	cout << endl;
 	return 0;
 	}
