@@ -6,7 +6,7 @@ using std::endl;
 
 int main() {
 
-	char letterGrade{};
+	/*char letterGrade{};
 
 	cout << "Enter the letter grade you expect on the exam: ";
 	cin >> letterGrade;
@@ -47,6 +47,23 @@ int main() {
 		break;
 	default:
 		cout << "Sorry that is not a valid grade" << endl;
+	}*/
+
+	enum Direction {
+		left, right, up, down
+	};
+
+	Direction heading{ left };
+
+	switch (heading) {
+	case left:
+		cout << "Going left" << endl;
+		break;
+	case right:
+		cout << "Going right" << endl;
+		break;
+	default:
+		cout << "OK" << endl;
 	}
 
 	cout << endl;
