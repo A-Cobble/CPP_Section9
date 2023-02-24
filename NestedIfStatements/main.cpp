@@ -118,7 +118,7 @@ int main() {
 			cout << " adding tier 1 surcharge" << endl;
 		}
 
-		cout << fixed << setprecision(2);
+		cout << fixed << setprecision(2); //prints dollars nicely
 		cout << "The volume of your package is: " << packageVolume << endl;
 		cout << "Your package will cost $" << packageCost << " to ship." << endl;
 	}
