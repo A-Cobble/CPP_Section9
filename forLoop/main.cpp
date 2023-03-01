@@ -1,8 +1,10 @@
 #include <iostream>
+#include <vector>
 
 using std::cout;
 using std::cin;
 using std::endl;
+using std::vector;
 
 int main() {
 
@@ -42,9 +44,14 @@ int main() {
 		}
 	*/
 
-	for (int j{ 1 }, k{ 5 }; j <= 5; j++, k++) {
+	/*for (int j{ 1 }, k{ 5 }; j <= 5; j++, k++) {
 		cout << j << " * " << k << " : " << (j * k) << endl;
 		cout << j << " + " << k << " = " << (j + k) << endl;
+	}*/
+
+	vector <int> nums{ 10,20,30,40,50 };
+	for (int i{ 0 }; i < nums.size(); i++) {
+		cout << nums[i] << endl;
 	}
 
 	cout << endl;
