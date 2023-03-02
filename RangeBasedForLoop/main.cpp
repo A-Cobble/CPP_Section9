@@ -26,7 +26,7 @@ int main() {
 		cout << score << endl;
 	}*/
 
-	vector<double> temperatures{ 87.9, 77.9, 80.0, 72.5 };
+	/*vector<double> temperatures{ 87.9, 77.9, 80.0, 72.5 };
 	double averageTemp{};
 	double total{};
 
@@ -47,6 +47,15 @@ int main() {
 
 	for (auto c : "This is a test") {
 		if (c != ' ') {
+			cout << c;
+		}
+	}*/
+
+	for (auto c : "This is a test") {
+		if (c == ' ') {
+			cout << "\t";
+		}
+		else {
 			cout << c;
 		}
 	}
