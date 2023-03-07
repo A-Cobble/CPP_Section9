@@ -14,30 +14,30 @@ int main() {
 
 	do {
 		cout << "\n---------------------------" << endl;
-		cout << "1. Do this" << endl;
-		cout << "2. Do that" << endl;
-		cout << "3. Do something else" << endl;
-		cout << "Q. Quit" << endl;
-		cout << "\nEnter your selection: ";
+		cout << "1. do this" << endl;
+		cout << "2. do that" << endl;
+		cout << "3. do something else" << endl;
+		cout << "q. quit" << endl;
+		cout << "\nenter your selection: ";
 		cin >> selection;
 
 		if (selection == '1') {
-			cout << "You chose 1 - doing this" << endl;
+			cout << "you chose 1 - doing this" << endl;
 		}
 		else if (selection == '2') {
-			cout << "You chose 2 - doing that" << endl;
+			cout << "you chose 2 - doing that" << endl;
 		}
 		else if (selection == '3') {
-			cout << "You chose 3 - doing something else" << endl;
+			cout << "you chose 3 - doing something else" << endl;
 		}
-		else if (selection == 'Q' || selection == 'q') {
-			cout << "Goodbye ..." << endl;
+		else if (selection == 'q' || selection == 'q') {
+			cout << "goodbye ..." << endl;
 		}
 		else {
-			cout << "Unknown option -- try again ..." << endl;
+			cout << "unknown option -- try again ..." << endl;
 		}
 
-	} while (selection != 'q' && selection != 'Q');
+	} while (selection != 'q' && selection != 'q');
 
 	cout << endl;
 	return 0;

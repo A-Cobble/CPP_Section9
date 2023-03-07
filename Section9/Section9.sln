@@ -21,6 +21,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "whileLoop", "..\whileLoop\w
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "doWhileLoop", "..\doWhileLoop\doWhileLoop.vcxproj", "{F491D545-4B26-42B6-B1A5-39A01370398D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "nestedLoops", "..\nestedLoops\nestedLoops.vcxproj", "{75C988D8-DCCE-4B17-9D5D-4FB5C3F494B0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -101,6 +103,14 @@ Global
 		{F491D545-4B26-42B6-B1A5-39A01370398D}.Release|x64.Build.0 = Release|x64
 		{F491D545-4B26-42B6-B1A5-39A01370398D}.Release|x86.ActiveCfg = Release|Win32
 		{F491D545-4B26-42B6-B1A5-39A01370398D}.Release|x86.Build.0 = Release|Win32
+		{75C988D8-DCCE-4B17-9D5D-4FB5C3F494B0}.Debug|x64.ActiveCfg = Debug|x64
+		{75C988D8-DCCE-4B17-9D5D-4FB5C3F494B0}.Debug|x64.Build.0 = Debug|x64
+		{75C988D8-DCCE-4B17-9D5D-4FB5C3F494B0}.Debug|x86.ActiveCfg = Debug|Win32
+		{75C988D8-DCCE-4B17-9D5D-4FB5C3F494B0}.Debug|x86.Build.0 = Debug|Win32
+		{75C988D8-DCCE-4B17-9D5D-4FB5C3F494B0}.Release|x64.ActiveCfg = Release|x64
+		{75C988D8-DCCE-4B17-9D5D-4FB5C3F494B0}.Release|x64.Build.0 = Release|x64
+		{75C988D8-DCCE-4B17-9D5D-4FB5C3F494B0}.Release|x86.ActiveCfg = Release|Win32
+		{75C988D8-DCCE-4B17-9D5D-4FB5C3F494B0}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
