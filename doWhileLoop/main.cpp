@@ -30,14 +30,14 @@ int main() {
 		else if (selection == '3') {
 			cout << "you chose 3 - doing something else" << endl;
 		}
-		else if (selection == 'q' || selection == 'q') {
+		else if (selection == 'Q' || selection == 'q') {
 			cout << "goodbye ..." << endl;
 		}
 		else {
 			cout << "unknown option -- try again ..." << endl;
 		}
 
-	} while (selection != 'q' && selection != 'q');
+	} while (selection != 'Q' && selection != 'q');
 
 	cout << endl;
 	return 0;
