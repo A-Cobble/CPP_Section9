@@ -76,25 +76,82 @@ int main() {
 		cin >> input;
 
 		if (input == 'P' || input == 'p') {
-			cout << "ha" << endl;
+			if (vec.size() > 0) {
+				cout << "[ ";
+				for (int i{ 0 }; i < vec.size(); i++) {
+					cout << vec[i] << " ";
+				}
+				cout << " ]" << endl;
+				cout << endl;
+			}
+			else {
+				cout << "[] - the list is empty" << endl;
+				cout << endl;
+			}
 		}
 		else if (input == 'A' || input == 'a') {
-			cout << "haha" << endl;
+			cout << "Enter an integer to add to the list: ";
+			int addNumber{ 0 };
+			cin >> addNumber;
+			vec.push_back(addNumber);
+			cout << addNumber << " added" << endl;
+			cout << endl;
 		}
 		else if (input == 'M' || input == 'm') {
-			cout << "blah" << endl;
+			if (vec.size() > 0) {
+				double sum{ 0 };
+				for (int i{ 0 }; i < vec.size(); i++) {
+					sum += vec[i];
+				}
+				double mean = sum / vec.size();
+				cout << "The mean is: " << mean << endl;
+				cout << endl;
+			}
+			else {
+				cout << "Unable to calculate the mean - no data" << endl;
+				cout << endl;
+			}
 		}
 		else if (input == 'S' || input == 's') {
-			cout << "ssssssss" << endl;
+			if (vec.size() > 0) {
+				cout << "The smallest number is: ";
+				int smallest = vec[0];
+				for (auto min : vec) {
+					if (min < smallest) {
+						smallest = min;
+					}
+				}
+				cout << smallest << endl;
+				cout << endl;
+			}
+			else {
+				cout << "Unable to determine the smallest number - list is empty" << endl;
+				cout << endl;
+			}
 		}
 		else if (input == 'L' || input == 'l') {
-			cout << "LLLLLLLllllLLllLLlLL" << endl;
+			if (vec.size() > 0) {
+				cout << "The largest number is: ";
+				int largest = vec[0];
+				for (auto max : vec) {
+					if (max > largest) {
+						largest = max;
+					}
+				}
+				cout << largest << endl;
+				cout << endl;
+			}
+			else {
+				cout << "Unable to determine the largest number - list is empty" << endl;
+				cout << endl;
+			}
 		}
 		else if (input == 'Q' || input == 'q') {
-			cout << "\nGoodby" << endl;
+			cout << "Goodbye" << endl;
 		}
 		else {
 			cout << "Unknown selection, please try again" << endl;
+			cout << endl;
 		}
 		
 	} while (input != 'Q' && input != 'q');
